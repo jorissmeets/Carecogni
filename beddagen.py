@@ -57,7 +57,7 @@ def create_radar_chart(normalized_input, normalized_avg, labels, max_values):
 
     # Create the radar chart
     fig, ax = plt.subplots(figsize=(6, 6), subplot_kw=dict(polar=True))
-    ax.fill(angles, normalized_avg, color='red', alpha=0.25, label='Gemiddelde')
+    ax.plot(angles, normalized_avg, color='black', linewidth=2, linestyle='-', label='Gemiddelde')
     ax.fill(angles, normalized_input, color='blue', alpha=0.5, label='Input')
     
     # Customize the chart
