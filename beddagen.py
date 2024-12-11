@@ -14,7 +14,7 @@ operatie_adjustment = {
 
 # Sidebar input fields
 st.sidebar.header("Input Fields")
-leeftijd = st.sidebar.slider("Leeftijd van de patiënt", 0, 100, 25)
+leeftijd = st.sidebar.slider("Leeftijd van de patiënt", 18, 100, 25)
 bmi = st.sidebar.slider("BMI van de patiënt", 15, 45, 25)
 asa = st.sidebar.slider("ASA van de patiënt", 1, 5, 2)
 dyspnoe_score = st.sidebar.slider("Dyspnoe score van de patiënt", 1, 5, 3)
